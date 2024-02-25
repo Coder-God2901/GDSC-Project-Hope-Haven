@@ -1,2 +1,10 @@
-# GDSC-Project-Hope-Haven
-A website that helps NGOs and other non-profitable organisations find aids like food, funds and other things that can contribute to the needs of poor and needy people residing in these organisations.
+
+  # Hope Haven
+
+  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
+
+  To preview and run the project on your device:
+  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
+  2) In the terminal, run `npm install`
+  3) Run `npm start` to view project in browser
+  

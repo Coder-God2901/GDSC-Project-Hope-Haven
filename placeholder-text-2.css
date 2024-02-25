@@ -1,0 +1,27 @@
+.select-the-organisation8 {
+  position: relative;
+}
+.placeholder-text-23 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0.2px;
+  right: 0;
+  bottom: -0.2px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+}
+.placeholder-text-22 {
+  width: 100%;
+  height: 20px;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-montserrat);
+}

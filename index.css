@@ -1,0 +1,890 @@
+.bg5-1-icon {
+  width: 1440px;
+  height: 782px;
+  position: relative;
+  object-fit: cover;
+  display: none;
+  mix-blend-mode: normal;
+  max-width: 100%;
+}
+.home1,
+.logo-icon {
+  position: relative;
+  z-index: 1;
+}
+.logo-icon {
+  height: 69px;
+  width: 70px;
+  object-fit: cover;
+}
+.home1 {
+  font-weight: 500;
+}
+.home-causes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  color: var(--color-blue);
+}
+.about,
+.causes,
+.who-we-are {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.who-we-are {
+  text-align: center;
+  white-space: nowrap;
+}
+.about,
+.causes {
+  cursor: pointer;
+}
+.home-causes1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+}
+.contact {
+  position: relative;
+  font-weight: 500;
+  cursor: pointer;
+  z-index: 1;
+}
+.home-causes-parent {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--navigation-size);
+  color: var(--color-black);
+  font-family: var(--body-text);
+}
+.frame-group-inner,
+.frame-wrapper,
+.logo-parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-wrapper {
+  width: 492px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.frame-group-inner,
+.logo-parent {
+  flex-direction: row;
+}
+.logo-parent {
+  width: 1223px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-group-inner {
+  justify-content: flex-start;
+  padding: 0 var(--padding-33xl) 0 var(--padding-24xl);
+  box-sizing: border-box;
+}
+.span {
+  color: var(--color-white);
+}
+.empowering-lives-bridging-div {
+  font-weight: 600;
+}
+.your-compassion-makes {
+  font-weight: 300;
+  color: var(--color-gray-200);
+}
+.empowering-lives-bridging-container {
+  margin: 0;
+  width: 500px;
+  height: 324px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.05em;
+  line-height: 63px;
+  display: inline-block;
+  flex-shrink: 0;
+  backdrop-filter: blur(4px);
+  max-width: 100%;
+  z-index: 1;
+  font-family: inherit;
+}
+.frame-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-31xl) var(--padding-42xl) 297px;
+  box-sizing: border-box;
+  gap: 42px 0;
+  background-image: url(./public/bg5-1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-30xl);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-poppins);
+}
+.how-could-you {
+  margin: 0;
+  width: 378px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.give-donation-child {
+  width: 450px;
+  height: 261px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro);
+  display: none;
+  max-width: 100%;
+}
+.money-bag-icon {
+  height: 66px;
+  width: 112px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.contribute {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.dont-read-fight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  row-gap: 20px;
+  max-width: 100%;
+}
+.dont-just-read {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-text-size);
+  text-transform: capitalize;
+  z-index: 1;
+}
+.give-donation,
+.volunteer-child {
+  width: 450px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro);
+  max-width: 100%;
+}
+.give-donation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-28xl) var(--padding-2xs) var(--padding-32xl)
+    var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-14xl);
+}
+.volunteer-child {
+  height: 261px;
+  position: relative;
+  display: none;
+}
+.care-icon {
+  height: 66px;
+  width: 103px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.be-a-volunteer1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.be-a-volunteer,
+.care-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.care-box {
+  flex: 1;
+  align-items: center;
+  gap: 0 13px;
+}
+.be-a-volunteer {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) 0 7px;
+  box-sizing: border-box;
+}
+.be-the-difference {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-text-size);
+  text-transform: capitalize;
+  color: var(--color-black);
+  z-index: 1;
+}
+.volunteer {
+  width: 450px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-28xl) var(--padding-xl) var(--padding-lgi)
+    var(--padding-mini);
+  box-sizing: border-box;
+  gap: var(--gap-14xl);
+  max-width: 100%;
+}
+.child-education {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.education-child {
+  width: 450px;
+  height: 261px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro);
+  display: none;
+  max-width: 100%;
+}
+.book-icon {
+  height: 66px;
+  width: 112px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.child-education2 {
+  position: relative;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+  margin: 0 0 0-11px;
+}
+.book-parent,
+.education-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.book-parent {
+  flex: 1;
+  align-items: center;
+  row-gap: 20px;
+}
+.education-inner {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.every-child-deserves {
+  flex: 1;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.every-child-deserves-a-chance-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-2xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--body-text-size);
+}
+.education,
+.support-us-child {
+  width: 450px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro);
+  max-width: 100%;
+}
+.education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-17xl) 13px var(--padding-22xl) var(--padding-base);
+  box-sizing: border-box;
+  gap: 22px;
+}
+.support-us-child {
+  height: 261px;
+  position: relative;
+  display: none;
+}
+.first-aid-box {
+  height: 60px;
+  width: 79px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.support-us1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.first-aid-box-parent,
+.support-us-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.first-aid-box-parent {
+  flex: 1;
+  align-items: center;
+  gap: 0 20px;
+}
+.support-us-inner {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-21xl) 0 var(--padding-9xs);
+}
+.share-your-abundance {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-text-size);
+  text-transform: capitalize;
+  z-index: 1;
+}
+.support-us {
+  width: 450px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-20xl) 46px var(--padding-20xl) 55px;
+  box-sizing: border-box;
+  gap: var(--gap-22xl);
+  min-height: 261px;
+  max-width: 100%;
+}
+.child-education1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.how-could-you-help-us-parent,
+.money-bag-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.money-bag-frame {
+  align-items: flex-start;
+  gap: 50px 0;
+  font-size: var(--font-size-22xl);
+  color: var(--color-gray-100);
+}
+.how-could-you-help-us-parent {
+  align-items: center;
+  gap: 83px 0;
+}
+.donate-now-child {
+  height: 84px;
+  width: 331px;
+  position: relative;
+  border-radius: var(--br-51xl);
+  background-color: var(--color-darkslategray-100);
+  display: none;
+  max-width: 100%;
+}
+.donate-now1 {
+  height: 43.8px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-weight: 600;
+  font-family: var(--font-rubik);
+  color: var(--color-palegoldenrod);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.donate-now {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-42xl) var(--padding-2xl)
+    var(--padding-34xl);
+  background-color: var(--color-darkslategray-100);
+  width: 332px;
+  border-radius: var(--br-51xl);
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.donate-now:hover {
+  background-color: var(--color-dimgray-200);
+}
+.donate-now,
+.frame-parent,
+.give-donation-box {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent {
+  width: 990px;
+  flex-direction: column;
+  align-items: center;
+  gap: 164px 0;
+  flex-shrink: 0;
+}
+.give-donation-box {
+  width: 1100px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-29xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: #040c5a;
+  font-family: var(--body-text);
+}
+.parent-rectangle,
+.parent-rectangle1 {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  left: 0;
+}
+.parent-rectangle {
+  height: 32px;
+  bottom: 0;
+  background-color: var(--color-palegoldenrod);
+}
+.parent-rectangle1 {
+  height: 100%;
+  top: 0;
+  background-color: var(--color-darkslategray-100);
+  z-index: 1;
+}
+.blank-line,
+.join-with-us1 {
+  font-weight: 600;
+}
+.blank-line {
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-rubik);
+}
+.join-with-us {
+  margin: 0;
+}
+.join-with-us-container {
+  height: 49px;
+  position: relative;
+  line-height: 44px;
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+  font-size: var(--font-size-16xl);
+  font-family: var(--body-text);
+}
+.become-a-donner,
+.become-a-volunteer1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 44px;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 2;
+}
+.become-a-donner {
+  align-self: stretch;
+}
+.become-a-volunteer {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 48px 0;
+}
+.address {
+  margin: 0;
+  width: 195px;
+  height: 49px;
+  position: relative;
+  font-size: inherit;
+  line-height: 44px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.c-block-bhubaneshwar-india,
+.contacthopehavencom,
+.p {
+  margin: 0;
+}
+.c-block-bhubaneshwar-india-container {
+  align-self: stretch;
+  height: 180px;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-weight: 600;
+  font-family: var(--font-rubik);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.address-frame {
+  width: 461px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-62xl) 0 0;
+  box-sizing: border-box;
+  gap: 41px 0;
+  max-width: 100%;
+  font-size: var(--font-size-16xl);
+  font-family: var(--body-text);
+}
+.follow-us-on {
+  margin: 0;
+  align-self: stretch;
+  height: 49px;
+  position: relative;
+  font-size: inherit;
+  line-height: 44px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.facebook-icon,
+.instagram-icon,
+.twitter-icon {
+  height: 70px;
+  width: 70px;
+  position: relative;
+  object-fit: cover;
+  min-height: 70px;
+  z-index: 2;
+}
+.follow-us-on-social-media,
+.follow-us-social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 25px;
+}
+.follow-us-on-social-media {
+  width: 266px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 80px 0;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-play);
+}
+.home,
+.support {
+  position: relative;
+  display: flex;
+}
+.support {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-62xl) var(--padding-88xl) var(--padding-24xl)
+    var(--padding-63xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-rubik);
+}
+.home {
+  width: 100%;
+  background-color: var(--color-white);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 170px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1275px) {
+  .frame-group-inner {
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+  .support {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .frame-group {
+    padding-top: var(--padding-13xl);
+    padding-bottom: 193px;
+    box-sizing: border-box;
+  }
+  .child-education {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .support-us {
+    min-height: auto;
+  }
+  .child-education1 {
+    flex-wrap: wrap;
+  }
+  .how-could-you-help-us-parent {
+    gap: 83px 0;
+  }
+  .frame-parent {
+    gap: 164px 0;
+  }
+  .give-donation-box {
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .home-causes-parent {
+    display: none;
+  }
+  .frame-wrapper {
+    width: 0;
+  }
+  .empowering-lives-bridging-container {
+    font-size: var(--font-size-20xl);
+    line-height: 50px;
+  }
+  .frame-group {
+    gap: 42px 0;
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .how-could-you {
+    font-size: var(--body-text-size);
+  }
+  .be-a-volunteer1,
+  .contribute {
+    font-size: var(--font-size-14xl);
+  }
+  .care-box {
+    flex-wrap: wrap;
+  }
+  .child-education2 {
+    font-size: var(--font-size-14xl);
+  }
+  .book-parent {
+    flex-wrap: wrap;
+  }
+  .support-us1 {
+    font-size: var(--font-size-14xl);
+  }
+  .money-bag-frame {
+    gap: 50px 0;
+  }
+  .how-could-you-help-us-parent {
+    gap: 83px 0;
+  }
+  .frame-parent {
+    gap: 164px 0;
+  }
+  .give-donation-box {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .address,
+  .become-a-donner,
+  .become-a-volunteer1,
+  .join-with-us-container {
+    font-size: var(--body-text-size);
+    line-height: 35px;
+  }
+  .address {
+    font-size: var(--font-size-9xl);
+  }
+  .c-block-bhubaneshwar-india-container {
+    font-size: var(--body-text-size);
+  }
+  .follow-us-on {
+    font-size: var(--font-size-13xl);
+    line-height: 35px;
+  }
+  .support {
+    padding-left: var(--padding-22xl);
+    padding-right: var(--padding-34xl);
+    box-sizing: border-box;
+  }
+  .home {
+    gap: 170px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .empowering-lives-bridging-container {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+  .frame-group {
+    padding-top: var(--padding-2xl);
+    padding-bottom: 125px;
+    box-sizing: border-box;
+  }
+  .how-could-you {
+    font-size: var(--navigation-size);
+  }
+  .contribute {
+    font-size: var(--font-size-6xl);
+  }
+  .dont-read-fight {
+    flex-wrap: wrap;
+  }
+  .dont-just-read {
+    font-size: var(--font-size-lgi);
+  }
+  .give-donation {
+    gap: var(--gap-14xl);
+  }
+  .be-a-volunteer1 {
+    font-size: var(--font-size-6xl);
+  }
+  .be-the-difference {
+    font-size: var(--font-size-lgi);
+  }
+  .volunteer {
+    gap: var(--gap-14xl);
+  }
+  .child-education2 {
+    font-size: var(--font-size-6xl);
+    margin-left: 0;
+  }
+  .every-child-deserves {
+    font-size: var(--font-size-lgi);
+  }
+  .support-us1 {
+    font-size: var(--font-size-6xl);
+  }
+  .first-aid-box-parent {
+    flex-wrap: wrap;
+  }
+  .share-your-abundance {
+    font-size: var(--font-size-lgi);
+  }
+  .support-us {
+    gap: var(--gap-22xl);
+  }
+  .donate-now,
+  .support-us {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .become-a-donner,
+  .become-a-volunteer1,
+  .join-with-us-container {
+    font-size: var(--navigation-size);
+    line-height: 26px;
+  }
+  .become-a-volunteer {
+    gap: 48px 0;
+  }
+  .address {
+    font-size: var(--font-size-2xl);
+    line-height: 26px;
+  }
+  .c-block-bhubaneshwar-india-container {
+    font-size: var(--navigation-size);
+  }
+  .address-frame {
+    gap: 41px 0;
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .follow-us-on {
+    font-size: var(--body-text-size);
+    line-height: 26px;
+  }
+  .follow-us-on-social-media {
+    gap: 80px 0;
+  }
+  .support {
+    padding-top: var(--padding-34xl);
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+  .home {
+    gap: 170px 0;
+  }
+}

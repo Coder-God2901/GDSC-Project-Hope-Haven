@@ -1,0 +1,540 @@
+.logo-icon4 {
+  height: 69px;
+  width: 70px;
+  position: relative;
+  object-fit: cover;
+}
+.home5,
+.who-we-are4 {
+  position: relative;
+  font-weight: 500;
+}
+.home5 {
+  cursor: pointer;
+}
+.who-we-are4 {
+  text-align: center;
+  white-space: nowrap;
+}
+.about4 {
+  cursor: pointer;
+}
+.about4,
+.causes6,
+.contact4 {
+  position: relative;
+  font-weight: 500;
+}
+.causes6 {
+  color: var(--color-blue);
+}
+.contact4 {
+  cursor: pointer;
+}
+.home-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-10xs) 0 0;
+  gap: var(--gap-xl);
+}
+.causes-frame-inner,
+.donate-frame,
+.logo-parent1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.donate-frame {
+  width: 493px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.causes-frame-inner,
+.logo-parent1 {
+  flex-direction: row;
+}
+.logo-parent1 {
+  width: 1224px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.causes-frame-inner {
+  width: 1328px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--navigation-size);
+  color: var(--color-black);
+  font-family: var(--body-text);
+}
+.stock-image-frame-child {
+  height: 1028px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-darkslategray-300);
+  display: none;
+  max-width: 100%;
+}
+.istockphoto-1062305448-612x612-icon {
+  height: 807px;
+  width: 1185px;
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  z-index: 1;
+}
+.causes-frame,
+.stock-image-frame {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.stock-image-frame {
+  flex: 1;
+  background-color: var(--color-darkslategray-300);
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-71xl) var(--padding-49xl);
+  box-sizing: border-box;
+}
+.causes-frame {
+  height: 1149px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 52px 0;
+}
+.they-are-waiting,
+.to-help-with {
+  margin: 0;
+}
+.they-are-waiting-container {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.donation-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-19xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image-4-1-icon,
+.image-6-1-icon {
+  position: relative;
+  max-width: 100%;
+  object-fit: cover;
+}
+.image-4-1-icon {
+  height: 230px;
+  width: 399.3px;
+  min-height: 230px;
+}
+.image-6-1-icon {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  max-height: 100%;
+}
+.image-6-1-wrapper {
+  height: 230px;
+  width: 433px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image-10-1-icon {
+  height: 230px;
+  width: 408.7px;
+  position: relative;
+  object-fit: cover;
+  min-height: 230px;
+  max-width: 100%;
+}
+.image-component {
+  flex-direction: row;
+  gap: 0 56px;
+}
+.button-frame,
+.image-component,
+.message-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.message-frame {
+  flex-direction: column;
+  gap: 100px 0;
+}
+.button-frame {
+  flex-direction: row;
+  padding: 0 var(--padding-xl) var(--padding-lgi) var(--padding-22xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 53px;
+  color: #a84343;
+  font-family: var(--body-text);
+}
+.donate-now-child42 {
+  height: 84px;
+  width: 331px;
+  position: relative;
+  border-radius: var(--br-51xl);
+  background-color: var(--color-darkslategray-100);
+  display: none;
+  max-width: 100%;
+}
+.donate-now85 {
+  height: 43.8px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-weight: 600;
+  font-family: var(--font-rubik);
+  color: var(--color-palegoldenrod);
+  text-align: center;
+  display: inline-block;
+  z-index: 1;
+}
+.donate-now-frame1,
+.donate-now84 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.donate-now84 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-42xl) var(--padding-2xl)
+    var(--padding-34xl);
+  background-color: var(--color-darkslategray-100);
+  flex: 1;
+  border-radius: var(--br-51xl);
+  align-items: center;
+  white-space: nowrap;
+}
+.donate-now84:hover {
+  background-color: var(--color-dimgray-200);
+}
+.donate-now-frame1 {
+  width: 371px;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-lgi);
+  flex-shrink: 0;
+}
+.volunteer-rectangle,
+.volunteer-rectangle1 {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  left: 0;
+}
+.volunteer-rectangle {
+  height: 32px;
+  bottom: 0;
+  background-color: var(--color-palegoldenrod);
+}
+.volunteer-rectangle1 {
+  height: 100%;
+  top: 0;
+  background-color: var(--color-saddlebrown);
+  z-index: 1;
+}
+.blank-line4,
+.join-with-us9 {
+  font-weight: 600;
+}
+.blank-line4 {
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-rubik);
+}
+.join-with-us8 {
+  margin: 0;
+}
+.join-with-us-container4 {
+  height: 49px;
+  position: relative;
+  line-height: 44px;
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+  font-size: var(--font-size-16xl);
+  font-family: var(--body-text);
+}
+.become-a-donner4,
+.become-a-volunteer5 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 44px;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 2;
+}
+.become-a-donner4 {
+  align-self: stretch;
+}
+.become-a-donner-frame {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 48px 0;
+}
+.address4 {
+  margin: 0;
+  width: 195px;
+  height: 49px;
+  position: relative;
+  font-size: inherit;
+  line-height: 44px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.c-block-bhubaneshwar-india4,
+.contacthopehavencom4,
+.p4 {
+  margin: 0;
+}
+.c-block-bhubaneshwar-india-container4 {
+  align-self: stretch;
+  height: 180px;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-weight: 600;
+  font-family: var(--font-rubik);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.cblock-info {
+  width: 461px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-62xl) 0 0;
+  box-sizing: border-box;
+  gap: 41px 0;
+  max-width: 100%;
+  font-size: var(--font-size-16xl);
+  font-family: var(--body-text);
+}
+.follow-us-on4 {
+  margin: 0;
+  align-self: stretch;
+  height: 49px;
+  position: relative;
+  font-size: inherit;
+  line-height: 44px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.facebook-icon4,
+.instagram-icon4,
+.twitter-icon4 {
+  height: 70px;
+  width: 70px;
+  position: relative;
+  object-fit: cover;
+  min-height: 70px;
+  z-index: 2;
+}
+.donate-now-text,
+.volunteer-become-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 25px;
+}
+.donate-now-text {
+  width: 266px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 80px 0;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-play);
+}
+.causes5,
+.support4 {
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+}
+.support4 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-62xl) var(--padding-88xl) var(--padding-24xl)
+    var(--padding-63xl);
+  gap: var(--gap-xl);
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-rubik);
+}
+.causes5 {
+  width: 100%;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-33xl) 0 0;
+  gap: 119px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1350px) {
+  .stock-image-frame {
+    padding-left: var(--padding-15xl);
+    padding-right: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+  .image-component,
+  .support4 {
+    flex-wrap: wrap;
+  }
+  .support4 {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .stock-image-frame {
+    padding-top: var(--padding-39xl);
+    padding-bottom: var(--padding-39xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .home-frame {
+    display: none;
+  }
+  .donate-frame {
+    width: 0;
+  }
+  .stock-image-frame {
+    padding-top: var(--padding-19xl);
+    padding-bottom: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+  .causes-frame {
+    gap: 52px 0;
+  }
+  .they-are-waiting-container {
+    font-size: var(--font-size-23xl);
+  }
+  .image-component {
+    gap: 0 56px;
+  }
+  .message-frame {
+    gap: 100px 0;
+  }
+  .address4,
+  .become-a-donner4,
+  .become-a-volunteer5,
+  .join-with-us-container4 {
+    font-size: var(--body-text-size);
+    line-height: 35px;
+  }
+  .address4 {
+    font-size: var(--font-size-9xl);
+  }
+  .c-block-bhubaneshwar-india-container4 {
+    font-size: var(--body-text-size);
+  }
+  .follow-us-on4 {
+    font-size: var(--font-size-13xl);
+    line-height: 35px;
+  }
+  .support4 {
+    padding-left: var(--padding-22xl);
+    padding-right: var(--padding-34xl);
+    box-sizing: border-box;
+  }
+  .causes5 {
+    gap: 119px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .they-are-waiting-container {
+    font-size: var(--font-size-13xl);
+  }
+  .message-frame {
+    gap: 100px 0;
+  }
+  .donate-now84 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .become-a-donner4,
+  .become-a-volunteer5,
+  .join-with-us-container4 {
+    font-size: var(--navigation-size);
+    line-height: 26px;
+  }
+  .become-a-donner-frame {
+    gap: 48px 0;
+  }
+  .address4 {
+    font-size: var(--font-size-2xl);
+    line-height: 26px;
+  }
+  .c-block-bhubaneshwar-india-container4 {
+    font-size: var(--navigation-size);
+  }
+  .cblock-info {
+    gap: 41px 0;
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .follow-us-on4 {
+    font-size: var(--body-text-size);
+    line-height: 26px;
+  }
+  .donate-now-text {
+    gap: 80px 0;
+  }
+  .support4 {
+    padding-top: var(--padding-34xl);
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+  .causes5 {
+    gap: 119px 0;
+  }
+}
