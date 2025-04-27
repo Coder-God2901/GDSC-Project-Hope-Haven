@@ -1,0 +1,179 @@
+/* AuthModal.module.css */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    animation: fadeIn 0.3s ease;
+  }
+  
+  .modal {
+    background-color: #121212;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    animation: slideIn 0.3s ease;
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--white);
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .closeButton:hover {
+    color: var(--primary);
+  }
+  
+  .header {
+    padding: 2rem 2rem 1rem;
+    text-align: center;
+  }
+  
+  .header h2 {
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .tab {
+    background: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: var(--white);
+    cursor: pointer;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  
+  .tab:after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--primary);
+    transition: width 0.3s ease;
+  }
+  
+  .tab.active {
+    color: var(--primary);
+  }
+  
+  .tab.active:after {
+    width: 100%;
+  }
+  
+  .content {
+    padding: 0 2rem 2rem;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .inputGroup {
+    position: relative;
+  }
+  
+  .inputGroup input {
+    width: 100%;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    border-radius: 5px;
+    color: var(--white);
+    transition: border-color 0.3s ease;
+  }
+  
+  .inputGroup input:focus {
+    outline: none;
+    border-color: var(--primary);
+  }
+  
+  .inputGroup label {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+    transition: all 0.3s ease;
+    pointer-events: none;
+  }
+  
+  .inputGroup input:focus + label,
+  .inputGroup input:not(:placeholder-shown) + label {
+    top: -0.5rem;
+    left: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--primary);
+    background-color: #121212;
+    padding: 0 0.5rem;
+  }
+  
+  .submitButton {
+    background-color: var(--primary);
+    color: #121212;
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #B8962D;
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
+  }
+  
+  .forgotPassword {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .forgotPassword a {
+    color: var(--primary);
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+  }
+  
+  .forgotPassword a:hover {
+    opacity: 0.8;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes slideIn {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  

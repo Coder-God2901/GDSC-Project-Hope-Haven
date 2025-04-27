@@ -1,0 +1,130 @@
+/* MainContent.module.css */
+.main {
+  padding-top: 80px;
+}
+
+.section {
+  padding: 5rem 0;
+}
+
+.missionSection {
+  padding: 5rem 0;
+  background-color: rgba(139, 0, 0, 0.1);
+  border-top: 1px solid rgba(212, 175, 55, 0.2);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.sectionTitle {
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+  color: var(--primary);
+}
+
+.sectionTitle:after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background-color: var(--primary);
+}
+
+.missionText {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.howItWorksCard {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  transition: all 0.3s ease;
+}
+
+.howItWorksCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(212, 175, 55, 0.2);
+}
+
+.howItWorks {
+  text-align: center;
+  padding: 2rem;
+}
+
+.icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.successStoriesSection {
+  padding: 5rem 0;
+  background-color: rgba(27, 94, 32, 0.1);
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  padding: 2rem 0;
+  scroll-snap-type: x mandatory;
+  gap: 2rem;
+}
+
+.testimonial {
+  min-width: 300px;
+  scroll-snap-align: start;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.testimonialImage {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.testimonialContent {
+  padding: 1.5rem;
+}
+
+.quote {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.name {
+  font-weight: bold;
+  color: var(--primary);
+}
+
+.location {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.ctaSection {
+  padding: 5rem 0;
+  text-align: center;
+  background: linear-gradient(rgba(18, 18, 18, 0.9), rgba(18, 18, 18, 0.9)), url('/images/cta-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.ctaSection h2 {
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.ctaSection p {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  font-size: 1.2rem;
+}

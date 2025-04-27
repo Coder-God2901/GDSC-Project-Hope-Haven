@@ -1,0 +1,49 @@
+/* Button.module.css */
+.button {
+    display: inline-block;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    outline: none;
+    text-align: center;
+  }
+  
+  .primary {
+    background-color: #A1C6EA;
+    color: white;
+  }
+  
+  .primary:hover {
+    background-color: #7AAEDC;
+    transform: scale(1.05);
+  }
+  
+  .secondary {
+    background-color: transparent;
+    color: #222222;
+    border: 2px solid #A1C6EA;
+  }
+  
+  .secondary:hover {
+    background-color: #A1C6EA;
+    color: white;
+    transform: scale(1.05);
+  }
+  
+  .sm {
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+  }
+  
+  .md {
+    padding: 0.75rem 1.5rem;
+    font-size: 16px;
+  }
+  
+  .lg {
+    padding: 1rem 2rem;
+    font-size: 18px;
+  }
+  
