@@ -129,5 +129,5 @@ We welcome PRs and collaboration!
 # 📬 Contact
 Created by Akshat Jain, Anika Mariam
 
-For collaborations or feedback: akjain2904@gmail.com
+For collaborations or feedback: akjain2904@gmail.com or anikamariam42@gmail.com
 
