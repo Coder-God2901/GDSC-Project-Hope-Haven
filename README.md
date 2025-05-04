@@ -106,28 +106,28 @@ Make sure the Flask server is running on the same port used in .env.local.
 
  # ML Donation Prediction Model
 
- AI Chatbot with LangChain or RAG-based system
+ - AI Chatbot with LangChain or RAG-based system
 
- NGO/Partner Organization Onboarding
+ - NGO/Partner Organization Onboarding
 
- Mobile App (React Native)
+ - Mobile App (React Native)
 
 # 🤝 Contributing
 We welcome PRs and collaboration!
 
-Fork the repo
+- Fork the repo
 
-Create a new branch (feature/xyz)
+- Create a new branch (feature/xyz)
 
-Commit your changes
+- Commit your changes
 
-Submit a PR
+- Submit a PR
 
 # 🧠 Learnings & Impact
 "Hope Haven taught us how design, technology, and empathy intersect to solve real-world problems. From Supabase to AI — this project was more than code; it was a mission."
 
 # 📬 Contact
-Created by Akshat Jain and Team GDSC
+Created by Akshat Jain, Anika Mariam
 
 For collaborations or feedback: akjain2904@gmail.com
 
