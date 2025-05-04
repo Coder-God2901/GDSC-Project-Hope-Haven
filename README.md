@@ -129,5 +129,5 @@ Submit a PR
 # 📬 Contact
 Created by Akshat Jain and Team GDSC
 
-For collaborations or feedback: hopehaven.team@gmail.com
+For collaborations or feedback: akjain2904@gmail.com
 
